@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(90, 90, 90);
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+} .message {
+    padding: 20px 40px;
+    height: 120px;
+    width: 500px;
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 20px;
+} label {
+    width: 100px;
+    display: block;
+} label:hover {
+    cursor: pointer;
+} label img {
+    height: 50px;
+} .date {
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+} .count {
+    color: white;
+}
